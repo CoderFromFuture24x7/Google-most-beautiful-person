@@ -1,7 +1,7 @@
 document.getElementById('search-form').addEventListener('submit', function(event) {
     event.preventDefault();
     
-    const query = document.getElementById('search-box').value.toLowerCase();
+    const query = document.getElementById('search-box').value;
     
     if (query === 'who is the most beautiful person on earth') or (query === 'Who is the most beautiful person on earth') {
         document.querySelector('.container').style.display = 'none';
