@@ -3,7 +3,7 @@ document.getElementById('search-form').addEventListener('submit', function(event
     
     const query = document.getElementById('search-box').value.toLowerCase();
     
-    if (query === 'who is the most beautiful person on earth') {
+    if (query === 'who is the most beautiful person on earth') or (query === 'Who is the most beautiful person on earth') or (query === 'Who is most beautiful person on earth') or (query === 'Who is the most beautiful person') or (query === 'Who is most beautiful person'){
         document.querySelector('.container').style.display = 'none';
         document.getElementById('result-container').style.display = 'block';
     } else {
