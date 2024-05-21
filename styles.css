@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.search-container {
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#search-box {
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.result-container {
+    display: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#person-img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#person-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#person-detail {
+    font-size: 16px;
+    color: #555;
+}
